@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "vhy7n4c2y5gfnkrxygk7nygiwi"
+      "buildId": "7q52m74wjnaqzciohmgqfuqsl4"
     }
   },
   "variants": [
@@ -22,15 +22,24 @@
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.platform.type": "common"
       },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.0-rc"
+          }
+        }
+      ],
       "files": [
         {
           "name": "rucountablenouns-metadata-1.0.jar",
           "url": "rucountablenouns-metadata-1.0.jar",
           "size": 12840,
-          "sha512": "0deedfeed7e9ea9a3bf9c20cf2e224032533e0cbe23a1b2a490ee4b03cb0a497b8de15b16cc98efcd25537730adf83185a9a7995928a3cf5d16cec34b5ad9e47",
-          "sha256": "f52290376136a503ac45e236aa3baa26a87d405e850dbeb02bdc1b46941e43a1",
-          "sha1": "e915989feea59a66dc9373400922e1b215e9e3b6",
-          "md5": "9326546022ac89c01f23b2ab2798c8be"
+          "sha512": "d504c93058e8187f1463c0a799c8b070211817751c1863765f67961e758183eaf0fad5e2d1844489e33e34721f99e813d45f2c2b6d6f5362821ac0c1835e12da",
+          "sha256": "b0a6cfd9862fd88b37977ec0102e496dd8ac3d8dda9a96c0ab699717822c574d",
+          "sha1": "c92620b7a8a93276318ac7d33a8a04e1849bd910",
+          "md5": "4ac874f8cd61a68f5321f4d25aaef474"
         }
       ]
     }

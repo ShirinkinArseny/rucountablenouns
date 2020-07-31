@@ -12,12 +12,12 @@ repositories {
 
 kotlin {
     jvm()
-    js()
+    js(BOTH) {
+        nodejs()
+        browser()
+    }
     sourceSets {
         commonMain {
-            dependencies {
-                implementation kotlin('stdlib-common')
-            }
         }
         commonTest {
             dependencies {
@@ -25,23 +25,10 @@ kotlin {
                 implementation kotlin('test-annotations-common')
             }
         }
-
-        jvm().compilations.main.defaultSourceSet {
-            dependencies {
-                implementation kotlin('stdlib-jdk8')
-            }
-        }
         jvm().compilations.test.defaultSourceSet {
             dependencies {
                 implementation kotlin('test-junit')
             }
         }
-
-        js().compilations.main.defaultSourceSet {
-            dependencies {
-                implementation kotlin('stdlib-js')
-            }
-        }
-
     }
 }

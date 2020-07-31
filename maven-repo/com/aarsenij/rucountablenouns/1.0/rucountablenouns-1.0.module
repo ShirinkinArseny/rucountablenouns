@@ -11,12 +11,12 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "7mkn34ykjrg6vnw2d4lamfzxkq"
+      "buildId": "6al76bnfcfa2dhnt5hw5pwibc4"
     }
   },
   "variants": [
     {
-      "name": "js-api",
+      "name": "jsLegacy-api",
       "attributes": {
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.js.compiler": "legacy",
@@ -30,10 +30,38 @@
       }
     },
     {
-      "name": "js-runtime",
+      "name": "jsLegacy-runtime",
       "attributes": {
         "org.gradle.usage": "kotlin-runtime",
         "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-js/1.0/rucountablenouns-js-1.0.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jsIr-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-js/1.0/rucountablenouns-js-1.0.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-js",
+        "version": "1.0"
+      }
+    },
+    {
+      "name": "jsIr-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {

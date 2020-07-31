@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "ljd6qpzzprekje7qdponj7jrdu"
+      "buildId": "tgfncns32bhi3bmltu7rj7e24m"
     }
   },
   "variants": [
@@ -23,29 +23,10 @@
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
-      "files": [
-        {
-          "name": "rucountablenouns-jvm-1.0.jar",
-          "url": "rucountablenouns-jvm-1.0.jar",
-          "size": 58020,
-          "sha512": "334cb5177ed570eac8cf422cb5a0c99c1bb203acf8c149c27dd11fae609dc546f205917f44083124e7329b325fcaefa0f3892ed2921596f0c533244a5e627514",
-          "sha256": "5bbf4e232dc7cca3e7ba6aedae90e7656d7c89bfe93812565825d770295c3840",
-          "sha1": "5c5303d274aab2916a43d560726b2b2fa9560006",
-          "md5": "49e1421fbdb38551317804e54f5ffcca"
-        }
-      ]
-    },
-    {
-      "name": "jvm-runtime",
-      "attributes": {
-        "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "jvm"
-      },
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib",
           "version": {
             "requires": "1.4.0-rc"
           }
@@ -63,10 +44,45 @@
           "name": "rucountablenouns-jvm-1.0.jar",
           "url": "rucountablenouns-jvm-1.0.jar",
           "size": 58020,
-          "sha512": "334cb5177ed570eac8cf422cb5a0c99c1bb203acf8c149c27dd11fae609dc546f205917f44083124e7329b325fcaefa0f3892ed2921596f0c533244a5e627514",
-          "sha256": "5bbf4e232dc7cca3e7ba6aedae90e7656d7c89bfe93812565825d770295c3840",
-          "sha1": "5c5303d274aab2916a43d560726b2b2fa9560006",
-          "md5": "49e1421fbdb38551317804e54f5ffcca"
+          "sha512": "698961d4a57d5fca4f2cf4d2ba4534ddeabb556dc3e9f750aaa7d8a2c0275e227dbe8a8e00ea54ead50fd558c257e0fc61078b1ed7b164e8f40b82a0e1782e57",
+          "sha256": "1ae76cd2cca13c4310d9403b21a937db956a7384943233f1ceeb5e0b4145ebbd",
+          "sha1": "7e1f404b4266b61f6fa63f321ddd244637fd1461",
+          "md5": "c6be8d100fbef076fe65bddfe110fd0e"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0-rc"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.0-rc"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jvm-1.0.jar",
+          "url": "rucountablenouns-jvm-1.0.jar",
+          "size": 58020,
+          "sha512": "698961d4a57d5fca4f2cf4d2ba4534ddeabb556dc3e9f750aaa7d8a2c0275e227dbe8a8e00ea54ead50fd558c257e0fc61078b1ed7b164e8f40b82a0e1782e57",
+          "sha256": "1ae76cd2cca13c4310d9403b21a937db956a7384943233f1ceeb5e0b4145ebbd",
+          "sha1": "7e1f404b4266b61f6fa63f321ddd244637fd1461",
+          "md5": "c6be8d100fbef076fe65bddfe110fd0e"
         }
       ]
     },
