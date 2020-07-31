@@ -11,8 +11,8 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.3",
-      "buildId": "gd2tzlug2nfftmu4qouazmfcqi"
+      "version": "6.1",
+      "buildId": "vhy7n4c2y5gfnkrxygk7nygiwi"
     }
   },
   "variants": [
@@ -26,11 +26,11 @@
         {
           "name": "rucountablenouns-metadata-1.0.jar",
           "url": "rucountablenouns-metadata-1.0.jar",
-          "size": 12838,
-          "sha512": "8ebdc7a3529490893c94e64edbd3ff0a3799268475082bfbdf7ca3bca5c4c956f0b26a37a12366d7b3e0dd7486fa4500a39bc741248cfc8108f5722905759084",
-          "sha256": "304a0d1177ee117de780d2bd03be44b15b86d29047a01e1c4b350ae2d83c3805",
-          "sha1": "ef968fc1e3d5466078d96b5354fc35dcfd319368",
-          "md5": "bff33856293c7ed3be93c4d2596f174a"
+          "size": 12840,
+          "sha512": "0deedfeed7e9ea9a3bf9c20cf2e224032533e0cbe23a1b2a490ee4b03cb0a497b8de15b16cc98efcd25537730adf83185a9a7995928a3cf5d16cec34b5ad9e47",
+          "sha256": "f52290376136a503ac45e236aa3baa26a87d405e850dbeb02bdc1b46941e43a1",
+          "sha1": "e915989feea59a66dc9373400922e1b215e9e3b6",
+          "md5": "9326546022ac89c01f23b2ab2798c8be"
         }
       ]
     }

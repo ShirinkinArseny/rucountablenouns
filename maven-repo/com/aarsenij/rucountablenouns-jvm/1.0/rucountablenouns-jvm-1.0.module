@@ -11,8 +11,8 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.3",
-      "buildId": "gd2tzlug2nfftmu4qouazmfcqi"
+      "version": "6.1",
+      "buildId": "ljd6qpzzprekje7qdponj7jrdu"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "rucountablenouns-jvm-1.0.jar",
           "url": "rucountablenouns-jvm-1.0.jar",
-          "size": 58076,
-          "sha512": "164f694ba7249247b23645a35306faee0bfc97a65c704826710d8f407c745c012286567d5cb4a0fe2a950c866129797fc1f04a8b8fa51770276300e35522d117",
-          "sha256": "bf39dec257a057d7503b36040030e5a5bbf14bd7c14cbefa49bff7acd9167888",
-          "sha1": "eaacfcabec3a5e9de7df69e5b8376b5aa906dd52",
-          "md5": "c6f11d63b6db80d35445e691e3d969f4"
+          "size": 58020,
+          "sha512": "334cb5177ed570eac8cf422cb5a0c99c1bb203acf8c149c27dd11fae609dc546f205917f44083124e7329b325fcaefa0f3892ed2921596f0c533244a5e627514",
+          "sha256": "5bbf4e232dc7cca3e7ba6aedae90e7656d7c89bfe93812565825d770295c3840",
+          "sha1": "5c5303d274aab2916a43d560726b2b2fa9560006",
+          "md5": "49e1421fbdb38551317804e54f5ffcca"
         }
       ]
     },
@@ -47,14 +47,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.3.70"
+            "requires": "1.4.0-rc"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.3.70"
+            "requires": "1.4.0-rc"
           }
         }
       ],
@@ -62,11 +62,11 @@
         {
           "name": "rucountablenouns-jvm-1.0.jar",
           "url": "rucountablenouns-jvm-1.0.jar",
-          "size": 58076,
-          "sha512": "164f694ba7249247b23645a35306faee0bfc97a65c704826710d8f407c745c012286567d5cb4a0fe2a950c866129797fc1f04a8b8fa51770276300e35522d117",
-          "sha256": "bf39dec257a057d7503b36040030e5a5bbf14bd7c14cbefa49bff7acd9167888",
-          "sha1": "eaacfcabec3a5e9de7df69e5b8376b5aa906dd52",
-          "md5": "c6f11d63b6db80d35445e691e3d969f4"
+          "size": 58020,
+          "sha512": "334cb5177ed570eac8cf422cb5a0c99c1bb203acf8c149c27dd11fae609dc546f205917f44083124e7329b325fcaefa0f3892ed2921596f0c533244a5e627514",
+          "sha256": "5bbf4e232dc7cca3e7ba6aedae90e7656d7c89bfe93812565825d770295c3840",
+          "sha1": "5c5303d274aab2916a43d560726b2b2fa9560006",
+          "md5": "49e1421fbdb38551317804e54f5ffcca"
         }
       ]
     },

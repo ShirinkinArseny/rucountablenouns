@@ -10,8 +10,8 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.3",
-      "buildId": "gd2tzlug2nfftmu4qouazmfcqi"
+      "version": "6.1",
+      "buildId": "7mkn34ykjrg6vnw2d4lamfzxkq"
     }
   },
   "variants": [
@@ -19,6 +19,7 @@
       "name": "js-api",
       "attributes": {
         "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
@@ -32,6 +33,7 @@
       "name": "js-runtime",
       "attributes": {
         "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
