@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "tgfncns32bhi3bmltu7rj7e24m"
+      "buildId": "ek3tlogx3jghhafmainjrxr23q"
     }
   },
   "variants": [
@@ -28,14 +28,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.4.0-rc"
+            "requires": "1.4.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0-rc"
+            "requires": "1.4.0"
           }
         }
       ],
@@ -44,10 +44,10 @@
           "name": "rucountablenouns-jvm-1.0.jar",
           "url": "rucountablenouns-jvm-1.0.jar",
           "size": 58020,
-          "sha512": "698961d4a57d5fca4f2cf4d2ba4534ddeabb556dc3e9f750aaa7d8a2c0275e227dbe8a8e00ea54ead50fd558c257e0fc61078b1ed7b164e8f40b82a0e1782e57",
-          "sha256": "1ae76cd2cca13c4310d9403b21a937db956a7384943233f1ceeb5e0b4145ebbd",
-          "sha1": "7e1f404b4266b61f6fa63f321ddd244637fd1461",
-          "md5": "c6be8d100fbef076fe65bddfe110fd0e"
+          "sha512": "7113a792b62556776b95f40ce432e5ead6b0cc3ec8ee81acfd202efec0ad21a49505f62aa151c59e94fd3aee308a917dda04d253a7457f35151ad6e9731fe271",
+          "sha256": "de6ecc8d7a58f0c60d28e1133fe11817804b0688a125f37e55e5cd8b877eeff8",
+          "sha1": "9269d4ad87504f810cbfa67ef3e8061dcbd7caaf",
+          "md5": "f12b1fb0b0f22b186135201be6f6591a"
         }
       ]
     },
@@ -63,14 +63,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.4.0-rc"
+            "requires": "1.4.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0-rc"
+            "requires": "1.4.0"
           }
         }
       ],
@@ -79,10 +79,10 @@
           "name": "rucountablenouns-jvm-1.0.jar",
           "url": "rucountablenouns-jvm-1.0.jar",
           "size": 58020,
-          "sha512": "698961d4a57d5fca4f2cf4d2ba4534ddeabb556dc3e9f750aaa7d8a2c0275e227dbe8a8e00ea54ead50fd558c257e0fc61078b1ed7b164e8f40b82a0e1782e57",
-          "sha256": "1ae76cd2cca13c4310d9403b21a937db956a7384943233f1ceeb5e0b4145ebbd",
-          "sha1": "7e1f404b4266b61f6fa63f321ddd244637fd1461",
-          "md5": "c6be8d100fbef076fe65bddfe110fd0e"
+          "sha512": "7113a792b62556776b95f40ce432e5ead6b0cc3ec8ee81acfd202efec0ad21a49505f62aa151c59e94fd3aee308a917dda04d253a7457f35151ad6e9731fe271",
+          "sha256": "de6ecc8d7a58f0c60d28e1133fe11817804b0688a125f37e55e5cd8b877eeff8",
+          "sha1": "9269d4ad87504f810cbfa67ef3e8061dcbd7caaf",
+          "md5": "f12b1fb0b0f22b186135201be6f6591a"
         }
       ]
     },
