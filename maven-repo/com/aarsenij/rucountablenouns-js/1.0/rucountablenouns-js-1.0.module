@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "sabi2gt7fjb4npxvbhbxmdltee"
+      "buildId": "lssvfwaaovcjfaraarkzwmmxum"
     }
   },
   "variants": [
@@ -28,14 +28,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         }
       ],
@@ -63,14 +63,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         }
       ],
@@ -98,14 +98,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         }
       ],
@@ -113,11 +113,11 @@
         {
           "name": "rucountablenouns-jsir-1.0.klib",
           "url": "rucountablenouns-js-1.0.klib",
-          "size": 54363,
-          "sha512": "c5bfed815ac4b4060346baad4ef9bb350caeeac9a2396a0c5f37c96587671dc93874ec3b7fd5f8ed9483a61daa67334efd15b79b4faeb81dd7859ca680f6f93f",
-          "sha256": "a43829f907ff5b817ab82e6aaaf66ece35eb62ffacfee4615bb0400498234015",
-          "sha1": "df110b4dd8fcdbe2f85f2b29e7566ab09f525ccc",
-          "md5": "4235ff4ada4bad8e329a0fa3da9f25c3"
+          "size": 54364,
+          "sha512": "f7654d4980480a0d9eb89f1ee4402e1dda5b3ffdcbb059ef9d8a1b78f2e4441ec9b6064db67b70593796f4a6666da2e64442b58f1021d07dcda852d322602663",
+          "sha256": "7a1ecc7505583fcbb28a200c4f26ae0ec770d3ff7dad42a7b7f3f50462104401",
+          "sha1": "f42c9e4d70262cd1aea5c257dd926bc79382ecb4",
+          "md5": "62005187733b9e2a48cd41ed813b5df9"
         }
       ]
     },
@@ -133,14 +133,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         }
       ],
@@ -148,11 +148,11 @@
         {
           "name": "rucountablenouns-jsir-1.0.klib",
           "url": "rucountablenouns-js-1.0.klib",
-          "size": 54363,
-          "sha512": "c5bfed815ac4b4060346baad4ef9bb350caeeac9a2396a0c5f37c96587671dc93874ec3b7fd5f8ed9483a61daa67334efd15b79b4faeb81dd7859ca680f6f93f",
-          "sha256": "a43829f907ff5b817ab82e6aaaf66ece35eb62ffacfee4615bb0400498234015",
-          "sha1": "df110b4dd8fcdbe2f85f2b29e7566ab09f525ccc",
-          "md5": "4235ff4ada4bad8e329a0fa3da9f25c3"
+          "size": 54364,
+          "sha512": "f7654d4980480a0d9eb89f1ee4402e1dda5b3ffdcbb059ef9d8a1b78f2e4441ec9b6064db67b70593796f4a6666da2e64442b58f1021d07dcda852d322602663",
+          "sha256": "7a1ecc7505583fcbb28a200c4f26ae0ec770d3ff7dad42a7b7f3f50462104401",
+          "sha1": "f42c9e4d70262cd1aea5c257dd926bc79382ecb4",
+          "md5": "62005187733b9e2a48cd41ed813b5df9"
         }
       ]
     },

@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "szl5eow6bzhvxgulbf4sewvb5a"
+      "buildId": "7sj6oriflzaoxcthlluyp75dwe"
     }
   },
   "variants": [
@@ -27,7 +27,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.0"
+            "requires": "1.4.10"
           }
         }
       ],
