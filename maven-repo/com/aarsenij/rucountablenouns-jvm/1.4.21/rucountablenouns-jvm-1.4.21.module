@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "qwnpbtjwancgdk7kzwwthl4d7e"
+      "buildId": "aubrzm5j3zdgjom7wy6n3t2frm"
     }
   },
   "variants": [
@@ -43,11 +43,11 @@
         {
           "name": "rucountablenouns-jvm-1.4.21.jar",
           "url": "rucountablenouns-jvm-1.4.21.jar",
-          "size": 58814,
-          "sha512": "8448ad56612df5ae50d30d67eb568494aabcf454bc9af150b78b7d2212bc050f5aa1eba5d3d29e5886b8a9d14ad6e85d5297141623145529afe2b147dfad6ad5",
-          "sha256": "3297f5e1f897ec311e66e283eb527e22784250a043c9f8dc2f129aa14d050a1d",
-          "sha1": "1098b146b51a73649817e075e8659d87588c3556",
-          "md5": "5efbbec017009b395ca11b16490dc8a2"
+          "size": 57977,
+          "sha512": "49d53ecd6f7d351aff2aabda14ecb31c8fb46fe3f8b8cd6031e1bcaa9cc75c666e9d47defc1711ee5f32bab2b249e1e22fa5542b7b9d471240358f67dbdd1ee8",
+          "sha256": "053c476ff3a4c9e8b268b3dbd2bd928f4598ec6f2f3921ebb5e48720440d2886",
+          "sha1": "8615e5af783aa1bcbde7948fcf21a54633fe5085",
+          "md5": "e5f74a5763db420dd69bbbb5bcbbafe3"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "rucountablenouns-jvm-1.4.21.jar",
           "url": "rucountablenouns-jvm-1.4.21.jar",
-          "size": 58814,
-          "sha512": "8448ad56612df5ae50d30d67eb568494aabcf454bc9af150b78b7d2212bc050f5aa1eba5d3d29e5886b8a9d14ad6e85d5297141623145529afe2b147dfad6ad5",
-          "sha256": "3297f5e1f897ec311e66e283eb527e22784250a043c9f8dc2f129aa14d050a1d",
-          "sha1": "1098b146b51a73649817e075e8659d87588c3556",
-          "md5": "5efbbec017009b395ca11b16490dc8a2"
+          "size": 57977,
+          "sha512": "49d53ecd6f7d351aff2aabda14ecb31c8fb46fe3f8b8cd6031e1bcaa9cc75c666e9d47defc1711ee5f32bab2b249e1e22fa5542b7b9d471240358f67dbdd1ee8",
+          "sha256": "053c476ff3a4c9e8b268b3dbd2bd928f4598ec6f2f3921ebb5e48720440d2886",
+          "sha1": "8615e5af783aa1bcbde7948fcf21a54633fe5085",
+          "md5": "e5f74a5763db420dd69bbbb5bcbbafe3"
         }
       ]
     },

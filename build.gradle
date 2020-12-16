@@ -11,11 +11,7 @@ repositories {
 }
 
 kotlin {
-    jvm {
-        compilations.main.kotlinOptions {
-            useIR = true
-        }
-    }
+    jvm {}
     js(IR) {
         nodejs()
         browser()
@@ -30,9 +26,6 @@ kotlin {
             }
         }
         jvm().compilations.test {
-            kotlinOptions {
-                useIR = true
-            }
             defaultSourceSet {
                 dependencies {
                     implementation kotlin('test-junit')
