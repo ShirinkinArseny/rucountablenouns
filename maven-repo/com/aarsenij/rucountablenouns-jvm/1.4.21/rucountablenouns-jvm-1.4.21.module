@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "aubrzm5j3zdgjom7wy6n3t2frm"
+      "buildId": "xxdahi6bcrh6lmw6znov3dh2hm"
     }
   },
   "variants": [
@@ -44,10 +44,10 @@
           "name": "rucountablenouns-jvm-1.4.21.jar",
           "url": "rucountablenouns-jvm-1.4.21.jar",
           "size": 57977,
-          "sha512": "49d53ecd6f7d351aff2aabda14ecb31c8fb46fe3f8b8cd6031e1bcaa9cc75c666e9d47defc1711ee5f32bab2b249e1e22fa5542b7b9d471240358f67dbdd1ee8",
-          "sha256": "053c476ff3a4c9e8b268b3dbd2bd928f4598ec6f2f3921ebb5e48720440d2886",
-          "sha1": "8615e5af783aa1bcbde7948fcf21a54633fe5085",
-          "md5": "e5f74a5763db420dd69bbbb5bcbbafe3"
+          "sha512": "03d73c129630f02f3d6b337b13ad15694452e86488719429bcb80b3653b06fcd63253dcf3ae69849362ec4b6bc16df447a415171ca2352aeea2f0841049a578c",
+          "sha256": "eb668e7723fb01af30d9d20f2f1d8ff14abab5104cb38969de17ff400c426f71",
+          "sha1": "fb70a727bda3cb6b897663586fc671a9edd657b3",
+          "md5": "ae0352beb622b9a522e04f3fa84d3286"
         }
       ]
     },
@@ -79,10 +79,10 @@
           "name": "rucountablenouns-jvm-1.4.21.jar",
           "url": "rucountablenouns-jvm-1.4.21.jar",
           "size": 57977,
-          "sha512": "49d53ecd6f7d351aff2aabda14ecb31c8fb46fe3f8b8cd6031e1bcaa9cc75c666e9d47defc1711ee5f32bab2b249e1e22fa5542b7b9d471240358f67dbdd1ee8",
-          "sha256": "053c476ff3a4c9e8b268b3dbd2bd928f4598ec6f2f3921ebb5e48720440d2886",
-          "sha1": "8615e5af783aa1bcbde7948fcf21a54633fe5085",
-          "md5": "e5f74a5763db420dd69bbbb5bcbbafe3"
+          "sha512": "03d73c129630f02f3d6b337b13ad15694452e86488719429bcb80b3653b06fcd63253dcf3ae69849362ec4b6bc16df447a415171ca2352aeea2f0841049a578c",
+          "sha256": "eb668e7723fb01af30d9d20f2f1d8ff14abab5104cb38969de17ff400c426f71",
+          "sha1": "fb70a727bda3cb6b897663586fc671a9edd657b3",
+          "md5": "ae0352beb622b9a522e04f3fa84d3286"
         }
       ]
     },

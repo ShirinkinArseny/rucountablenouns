@@ -11,8 +11,8 @@ repositories {
 }
 
 kotlin {
-    jvm {}
-    js(IR) {
+    jvm()
+    js(BOTH) {
         nodejs()
         browser()
     }
@@ -25,11 +25,9 @@ kotlin {
                 implementation kotlin('test-annotations-common')
             }
         }
-        jvm().compilations.test {
-            defaultSourceSet {
-                dependencies {
-                    implementation kotlin('test-junit')
-                }
+        jvm().compilations.test.defaultSourceSet {
+            dependencies {
+                implementation kotlin('test-junit')
             }
         }
     }

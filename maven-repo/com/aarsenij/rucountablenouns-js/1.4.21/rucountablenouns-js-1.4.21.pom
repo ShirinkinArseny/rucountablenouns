@@ -9,7 +9,7 @@
   <groupId>com.aarsenij</groupId>
   <artifactId>rucountablenouns-js</artifactId>
   <version>1.4.21</version>
-  <packaging>klib</packaging>
+  <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
