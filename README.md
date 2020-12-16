@@ -105,28 +105,6 @@ Available artifacts / доступные пакеты:
 + `rucountablenouns-js` for Kotlin/JS
 + `rucountablenouns` for multiplatform modules
 
-## Maven
-
-1. Add repository in the `repositories` section of your `pom.xml`:
-    ```xml
-    <repositories>
-        <repository>
-             <id>rucountablenouns</id>
-             <url>https://shirinkinarseny.github.io/rucountablenouns/maven-repo/</url>
-        </repository>
-    </repositories>
-    ```
-2. Add dependency in the `dependencies` section:
-    ```xml
-   <dependencies>
-       <dependency>
-           <groupId>com.aarsenij</groupId>
-           <artifactId>rucountablenouns-jvm</artifactId>
-           <version>1.0</version>
-       </dependency>
-   </dependencies>
-    ```
-
 ## Gradle 
 
 1. Add repository in the `repositories` section of your `build.gradle`:
@@ -140,7 +118,7 @@ Available artifacts / доступные пакеты:
 2. Add dependency in the `dependencies` section:
     ```groovy
     dependencies {       
-        compile "com.aarsenij:rucountablenouns-jvm:1.0"
+        compile "com.aarsenij:rucountablenouns-jvm:1.4.21"
     }
     ```
    
@@ -155,13 +133,6 @@ modules, that depend on your common module.
 вам нужно добавить `rucountablenouns` в зависимости вашего общего модуля,
 и `rucountablenouns-jvm` / `rucountablenouns-js` в зависимости модулей,
 зависящих от вашего общего модуля.
-
-    
-## Download JAR / Скачать JAR
-
-[rucountablenouns-jvm](https://github.com/ShirinkinArseny/rucountablenouns/blob/master/maven-repo/com/aarsenij/rucountablenouns-jvm/1.0/rucountablenouns-jvm-1.0.jar?raw=true)
-
-[rucountablenouns-js](https://github.com/ShirinkinArseny/rucountablenouns/blob/master/maven-repo/com/aarsenij/rucountablenouns-js/1.0/rucountablenouns-js-1.0.jar?raw=true)
 
 ## Presets
 

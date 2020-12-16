@@ -1,18 +1,22 @@
 plugins {
-    id 'org.jetbrains.kotlin.multiplatform' version '1.4.10'
+    id 'org.jetbrains.kotlin.multiplatform' version '1.4.21'
     id("maven-publish")
 }
 
 group 'com.aarsenij'
-version '1.0'
+version '1.4.21'
 
 repositories {
     mavenCentral()
 }
 
 kotlin {
-    jvm()
-    js(BOTH) {
+    jvm {
+        compilations.main.kotlinOptions {
+            useIR = true
+        }
+    }
+    js(IR) {
         nodejs()
         browser()
     }
@@ -25,9 +29,14 @@ kotlin {
                 implementation kotlin('test-annotations-common')
             }
         }
-        jvm().compilations.test.defaultSourceSet {
-            dependencies {
-                implementation kotlin('test-junit')
+        jvm().compilations.test {
+            kotlinOptions {
+                useIR = true
+            }
+            defaultSourceSet {
+                dependencies {
+                    implementation kotlin('test-junit')
+                }
             }
         }
     }

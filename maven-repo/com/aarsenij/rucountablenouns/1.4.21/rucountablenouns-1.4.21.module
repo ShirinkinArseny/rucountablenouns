@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aarsenij",
+    "module": "rucountablenouns",
+    "version": "1.4.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1",
+      "buildId": "aj2ludsd6bf3xp4kgxzc4auuuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-metadata-1.4.21.jar",
+          "url": "rucountablenouns-1.4.21.jar",
+          "size": 12841,
+          "sha512": "7acee1ab4f9cb903817849e2395a762b0fd71773ce2039f2dd0814c13ee370246d9a7fec11bd695ccf61289ef7be835e3e5787210bf2aa49fa93b8e73ade1c4c",
+          "sha256": "6d79f7ec25ee755dba787089c220418caa1e0c7ecf35234a52967d56bacdc9b2",
+          "sha1": "5dc310dd873428803b2e3d8eea3ad184eb1e6d6b",
+          "md5": "a1e48bbf58208dd350fdbdd8c7d32560"
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-js/1.4.21/rucountablenouns-js-1.4.21.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-js",
+        "version": "1.4.21"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-js/1.4.21/rucountablenouns-js-1.4.21.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-js",
+        "version": "1.4.21"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-jvm/1.4.21/rucountablenouns-jvm-1.4.21.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-jvm",
+        "version": "1.4.21"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../rucountablenouns-jvm/1.4.21/rucountablenouns-jvm-1.4.21.module",
+        "group": "com.aarsenij",
+        "module": "rucountablenouns-jvm",
+        "version": "1.4.21"
+      }
+    }
+  ]
+}
