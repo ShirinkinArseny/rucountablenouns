@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../rucountablenouns/1.4.21/rucountablenouns-1.4.21.module",
+    "url": "../../rucountablenouns/1.4.21-2/rucountablenouns-1.4.21-2.module",
     "group": "com.aarsenij",
     "module": "rucountablenouns",
-    "version": "1.4.21",
+    "version": "1.4.21-2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1",
-      "buildId": "r23uv4ananbcrkddzbkc3faqgq"
+      "buildId": "u447mjvpafgjponkkaua7zrs3q"
     }
   },
   "variants": [
@@ -28,26 +28,26 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.4.21-2"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.4.21-2"
           }
         }
       ],
       "files": [
         {
-          "name": "rucountablenouns-jvm-1.4.21.jar",
-          "url": "rucountablenouns-jvm-1.4.21.jar",
+          "name": "rucountablenouns-jvm-1.4.21-2.jar",
+          "url": "rucountablenouns-jvm-1.4.21-2.jar",
           "size": 57977,
-          "sha512": "db512e066a7b16c235ed4ba62ff242f5febf3e9c79c092d5f6208e31bec43bc5c0150c537afa12e2049e42cf9f3a4625c4be2e41c04650acfbcbd866a47401fb",
-          "sha256": "4503b885c4d9035e553f47c2250b254dd9c6e2a328aef43ae289cd6f236b0993",
-          "sha1": "c256fd1f275d57b29171986c6a796d2934b14ff5",
-          "md5": "4965ba4cac03a202757b0d5dbe0249ea"
+          "sha512": "ea6a2fc8e0820ca5a06bf711614199d52b858aa549aa9230647f6632b7d30e120ae85339e1f2b956aa2ae9d45a337a8869d134406e5401cd425bfa8c0d9a97a9",
+          "sha256": "3b554437d918349fe9d707a24f1c6efb3a7bbedf31001d45f8698058fcfa3c4d",
+          "sha1": "9ceb476091e4bfa82982784a60af19fb5f488e06",
+          "md5": "b3e490e8c0e48080f4b207f1c06f1f00"
         }
       ]
     },
@@ -63,26 +63,26 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.4.21-2"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.4.21-2"
           }
         }
       ],
       "files": [
         {
-          "name": "rucountablenouns-jvm-1.4.21.jar",
-          "url": "rucountablenouns-jvm-1.4.21.jar",
+          "name": "rucountablenouns-jvm-1.4.21-2.jar",
+          "url": "rucountablenouns-jvm-1.4.21-2.jar",
           "size": 57977,
-          "sha512": "db512e066a7b16c235ed4ba62ff242f5febf3e9c79c092d5f6208e31bec43bc5c0150c537afa12e2049e42cf9f3a4625c4be2e41c04650acfbcbd866a47401fb",
-          "sha256": "4503b885c4d9035e553f47c2250b254dd9c6e2a328aef43ae289cd6f236b0993",
-          "sha1": "c256fd1f275d57b29171986c6a796d2934b14ff5",
-          "md5": "4965ba4cac03a202757b0d5dbe0249ea"
+          "sha512": "ea6a2fc8e0820ca5a06bf711614199d52b858aa549aa9230647f6632b7d30e120ae85339e1f2b956aa2ae9d45a337a8869d134406e5401cd425bfa8c0d9a97a9",
+          "sha256": "3b554437d918349fe9d707a24f1c6efb3a7bbedf31001d45f8698058fcfa3c4d",
+          "sha1": "9ceb476091e4bfa82982784a60af19fb5f488e06",
+          "md5": "b3e490e8c0e48080f4b207f1c06f1f00"
         }
       ]
     },
@@ -93,10 +93,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../rucountablenouns-metadata/1.4.21/rucountablenouns-metadata-1.4.21.module",
+        "url": "../../rucountablenouns-metadata/1.4.21-2/rucountablenouns-metadata-1.4.21-2.module",
         "group": "com.aarsenij",
         "module": "rucountablenouns-metadata",
-        "version": "1.4.21"
+        "version": "1.4.21-2"
       }
     }
   ]

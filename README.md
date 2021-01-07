@@ -118,7 +118,7 @@ Available artifacts / доступные пакеты:
 2. Add dependency in the `dependencies` section:
     ```groovy
     dependencies {       
-        compile "com.aarsenij:rucountablenouns-jvm:1.4.21"
+        compile "com.aarsenij:rucountablenouns-jvm:1.4.21-2"
     }
     ```
    
