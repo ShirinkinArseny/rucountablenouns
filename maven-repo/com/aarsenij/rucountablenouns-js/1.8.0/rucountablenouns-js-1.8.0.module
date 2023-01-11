@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rucountablenouns/1.8.0/rucountablenouns-1.8.0.module",
+    "group": "com.aarsenij",
+    "module": "rucountablenouns",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jslegacy-1.8.0.jar",
+          "url": "rucountablenouns-js-1.8.0.jar",
+          "size": 38998,
+          "sha512": "c93baa72df81aaaeb89e230ac684951a56d5cb49c415e3a7f2547036eb085741ef54f5b876cc339f3a7c94f0641beb0b64f8e479c97bb2f2d3cb080f099da5c7",
+          "sha256": "d08a65a317235c0903ecb77fb68ed5916ac4bfce7fb64db2b365a764ba608cd1",
+          "sha1": "fbc9238c650866c7447e3089603deb78aa0429ca",
+          "md5": "db509e58d08f747fc0d0f5a155ff0046"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jslegacy-1.8.0.jar",
+          "url": "rucountablenouns-js-1.8.0.jar",
+          "size": 38998,
+          "sha512": "c93baa72df81aaaeb89e230ac684951a56d5cb49c415e3a7f2547036eb085741ef54f5b876cc339f3a7c94f0641beb0b64f8e479c97bb2f2d3cb080f099da5c7",
+          "sha256": "d08a65a317235c0903ecb77fb68ed5916ac4bfce7fb64db2b365a764ba608cd1",
+          "sha1": "fbc9238c650866c7447e3089603deb78aa0429ca",
+          "md5": "db509e58d08f747fc0d0f5a155ff0046"
+        }
+      ]
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jsir-1.8.0.klib",
+          "url": "rucountablenouns-js-1.8.0.klib",
+          "size": 53711,
+          "sha512": "d63e47d366815fb4cca02ab5ed8e96fb4d340185a16b970d317b6ecc7d803fb15e630f4de8686a481b2769b0142942f96ba395cfb9b570907f01642837b4767a",
+          "sha256": "d96d08fab5bf8b7ea7a6599fcf684a95fe4a08c6638c0e4c97f3051cd0fe0658",
+          "sha1": "861dd623bcccd673028283a511c2ea8d912e7efe",
+          "md5": "e90d62b9dbaccfd4a5dde6102ca58105"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jsir-1.8.0.klib",
+          "url": "rucountablenouns-js-1.8.0.klib",
+          "size": 53711,
+          "sha512": "d63e47d366815fb4cca02ab5ed8e96fb4d340185a16b970d317b6ecc7d803fb15e630f4de8686a481b2769b0142942f96ba395cfb9b570907f01642837b4767a",
+          "sha256": "d96d08fab5bf8b7ea7a6599fcf684a95fe4a08c6638c0e4c97f3051cd0fe0658",
+          "sha1": "861dd623bcccd673028283a511c2ea8d912e7efe",
+          "md5": "e90d62b9dbaccfd4a5dde6102ca58105"
+        }
+      ]
+    }
+  ]
+}

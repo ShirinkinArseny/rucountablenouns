@@ -103,32 +103,34 @@ println(
 Available artifacts / доступные пакеты:
 + `rucountablenouns-jvm` for Kotlin/JVM
 + `rucountablenouns-js` for Kotlin/JS
-+ `rucountablenouns-kotlinMultiplatform` for multiplatform modules
++ `rucountablenouns` for multiplatform modules
 
 ## Gradle 
 
 1. Add repository in the `repositories` section of your `build.gradle`:
     ```groovy
     repositories {       
-        jcenter()
+        maven { 
+           url "https://shirinkinarseny.github.io/rucountablenouns/maven-repo/" 
+       }
     }
     ```
 2. Add dependency in the `dependencies` section:
     ```groovy
     dependencies {       
-        compile "com.aarsenij:rucountablenouns-jvm:1.4.21"
+        compile "com.aarsenij:rucountablenouns-jvm:1.8.0"
     }
     ```
    
 ## Multiplatform modules
 
 If you want to use this library in a multiplatform (jvm/js) module,
-you should add `rucountablenouns-kotlinMultiplatform` as a dependency to your common module,
+you should add `rucountablenouns` as a dependency to your common module,
 and `rucountablenouns-jvm` / `rucountablenouns-js` as a dependency to 
 modules, that depend on your common module.
 
 Если вы хотите использовать библиотеку в мультиплатформенном (jvm/js) модуле,
-вам нужно добавить `rucountablenouns-kotlinMultiplatform` в зависимости вашего общего модуля,
+вам нужно добавить `rucountablenouns` в зависимости вашего общего модуля,
 и `rucountablenouns-jvm` / `rucountablenouns-js` в зависимости модулей,
 зависящих от вашего общего модуля.
 

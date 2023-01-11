@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rucountablenouns/1.0/rucountablenouns-1.0.module",
+    "group": "com.aarsenij",
+    "module": "rucountablenouns",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "gd2tzlug2nfftmu4qouazmfcqi"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "rucountablenouns-metadata-1.0.jar",
+          "url": "rucountablenouns-metadata-1.0.jar",
+          "size": 12838,
+          "sha512": "8ebdc7a3529490893c94e64edbd3ff0a3799268475082bfbdf7ca3bca5c4c956f0b26a37a12366d7b3e0dd7486fa4500a39bc741248cfc8108f5722905759084",
+          "sha256": "304a0d1177ee117de780d2bd03be44b15b86d29047a01e1c4b350ae2d83c3805",
+          "sha1": "ef968fc1e3d5466078d96b5354fc35dcfd319368",
+          "md5": "bff33856293c7ed3be93c4d2596f174a"
+        }
+      ]
+    }
+  ]
+}

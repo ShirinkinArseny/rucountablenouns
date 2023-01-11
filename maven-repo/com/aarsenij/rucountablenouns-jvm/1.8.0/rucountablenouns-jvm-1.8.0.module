@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../rucountablenouns/1.8.0/rucountablenouns-1.8.0.module",
+    "group": "com.aarsenij",
+    "module": "rucountablenouns",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jvm-1.8.0.jar",
+          "url": "rucountablenouns-jvm-1.8.0.jar",
+          "size": 58602,
+          "sha512": "e456f63c2fe9e7fb75cbb71604bf2f74809e2973d4aa890defb2d3a67e43380b5a46b61d1e5fc08d59ff13934baae3be631ce499fbf1667655bd9924b6844334",
+          "sha256": "f0969ada9b8db0b15b8a244625e5b8ab3d14d90c679b87cbd65e1df2fa0a6266",
+          "sha1": "fdf9dcb0cb36bcc4207d6156be3f4dd83df05f37",
+          "md5": "40c3697c7bd34ab29c017363294e620f"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rucountablenouns-jvm-1.8.0.jar",
+          "url": "rucountablenouns-jvm-1.8.0.jar",
+          "size": 58602,
+          "sha512": "e456f63c2fe9e7fb75cbb71604bf2f74809e2973d4aa890defb2d3a67e43380b5a46b61d1e5fc08d59ff13934baae3be631ce499fbf1667655bd9924b6844334",
+          "sha256": "f0969ada9b8db0b15b8a244625e5b8ab3d14d90c679b87cbd65e1df2fa0a6266",
+          "sha1": "fdf9dcb0cb36bcc4207d6156be3f4dd83df05f37",
+          "md5": "40c3697c7bd34ab29c017363294e620f"
+        }
+      ]
+    }
+  ]
+}
